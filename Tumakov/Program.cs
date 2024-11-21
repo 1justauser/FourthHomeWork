@@ -354,7 +354,8 @@ namespace Tumakov
             //Домашнее задание 5.1 Написать метод, который вычисляет НОД двух натуральных чисел
             //(алгоритм Евклида).Написать метод с тем же именем, который вычисляет НОД трех
             //натуральных чисел.
-            Console.WriteLine("Сколько чисел (2,3)?");
+            Console.WriteLine("Домашнее задание 5.1");
+            Console.WriteLine("Сколько чисел (2,3) для нахождения НОД?");
             int factorsAmount;
             if (int.TryParse(Console.ReadLine(), out factorsAmount))
             {
